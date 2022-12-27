@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="jrnLLg" name="DEFX" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              cppLanguageStandard="17">
+  <MAINGROUP id="mrtJLU" name="DEFX">
+    <GROUP id="{37B00CE8-8E04-63A5-DF59-50718C72CA57}" name="Source">
+      <GROUP id="{01642566-340C-ECC4-DB8B-45780421E367}" name="PedalBoard">
+        <FILE id="gsez5b" name="FXDisplay.cpp" compile="1" resource="0" file="Source/FXDisplay.cpp"/>
+        <FILE id="awHjni" name="FXDisplay.h" compile="0" resource="0" file="Source/FXDisplay.h"/>
+        <FILE id="qxuqwA" name="PeadalBoard.cpp" compile="1" resource="0" file="Source/PeadalBoard.cpp"/>
+        <FILE id="BCRAME" name="PeadalBoard.h" compile="0" resource="0" file="Source/PeadalBoard.h"/>
+        <FILE id="LB4GCu" name="Pedal.cpp" compile="1" resource="0" file="Source/Pedal.cpp"/>
+        <FILE id="xSJEVs" name="Pedal.h" compile="0" resource="0" file="Source/Pedal.h"/>
+        <FILE id="Ei3NxW" name="PedalsEnum.h" compile="0" resource="0" file="Source/PedalsEnum.h"/>
+      </GROUP>
+      <GROUP id="{CE4B5F92-2AF2-29F3-B575-432140FFCE2B}" name="Reverb">
+        <FILE id="lEhlCp" name="Reverb.cpp" compile="1" resource="0" file="Source/Reverb.cpp"/>
+        <FILE id="xfAes3" name="Reverb.h" compile="0" resource="0" file="Source/Reverb.h"/>
+        <FILE id="iqA4S6" name="ReverbGUI.cpp" compile="1" resource="0" file="Source/ReverbGUI.cpp"/>
+        <FILE id="vSirFj" name="ReverbGUI.h" compile="0" resource="0" file="Source/ReverbGUI.h"/>
+      </GROUP>
+      <GROUP id="{2D0F090C-061E-2C1E-5C30-FFCE36A1C636}" name="Delay">
+        <FILE id="E2o9LM" name="Delay.cpp" compile="1" resource="0" file="Source/Delay.cpp"/>
+        <FILE id="Pl84Yu" name="Delay.h" compile="0" resource="0" file="Source/Delay.h"/>
+        <FILE id="Z69Z38" name="DelayGUI.cpp" compile="1" resource="0" file="Source/DelayGUI.cpp"/>
+        <FILE id="oK2zPK" name="DelayGUI.h" compile="0" resource="0" file="Source/DelayGUI.h"/>
+      </GROUP>
+      <GROUP id="{5F2322D9-1AAB-726E-E6BD-AF8DBAAC4FD6}" name="ResponseCurve">
+        <FILE id="QnVRbp" name="ResponseCurve.cpp" compile="1" resource="0"
+              file="Source/ResponseCurve.cpp"/>
+        <FILE id="e0lnla" name="ResponseCurve.h" compile="0" resource="0" file="Source/ResponseCurve.h"/>
+      </GROUP>
+      <GROUP id="{3230DFDC-C36E-0EF5-132D-3915CE4FD2AC}" name="GUI">
+        <FILE id="lLrMSN" name="GUIComponents.cpp" compile="1" resource="0"
+              file="Source/GUIComponents.cpp"/>
+        <FILE id="J8c90X" name="GUIComponents.h" compile="0" resource="0" file="Source/GUIComponents.h"/>
+      </GROUP>
+      <GROUP id="{7A199F20-6619-FFE2-E368-60B1875885F7}" name="EQ">
+        <FILE id="CPiyUc" name="EQ.cpp" compile="1" resource="0" file="Source/EQ.cpp"/>
+        <FILE id="V9bfQf" name="EQ.h" compile="0" resource="0" file="Source/EQ.h"/>
+        <FILE id="s65zdb" name="EQFilters.cpp" compile="1" resource="0" file="Source/EQFilters.cpp"/>
+        <FILE id="mlADbN" name="EQFilters.h" compile="0" resource="0" file="Source/EQFilters.h"/>
+        <FILE id="SD8PAk" name="EQFiltersDefinitions.h" compile="0" resource="0"
+              file="Source/EQFiltersDefinitions.h"/>
+        <FILE id="vsokRI" name="EQGUI.cpp" compile="1" resource="0" file="Source/EQGUI.cpp"/>
+        <FILE id="zHEw9U" name="EQGUI.h" compile="0" resource="0" file="Source/EQGUI.h"/>
+      </GROUP>
+      <FILE id="AxOhmC" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="jV4Wak" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="AqXK2n" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="AoXjM7" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DEFX" enablePluginBinaryCopyStep="1"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DEFX"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
